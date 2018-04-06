@@ -1,0 +1,33 @@
+.background    { background-image: url("images/Stage 5.gif");
+                 table-layout: fixed;
+                 background-size: 100% 100%;
+                 border-spacing: 0;}
+.background td { padding: 0;          }
+.lava          { background-image: url("images/Lava.png");
+                 background-size: 100% 100%;}
+.wall          { background-image: url("images/Cave Tile.jpg");
+                 background-size: 100% 100%;}
+.floater       { background-image: url("images/Floater.png");
+                 background-size: 100% 100%;}
+
+.actor  { position: absolute;  }
+.coin   { background-image: url("images/Coin.gif");
+          background-size: 100% 100%;}
+.fireball { background-image: url("images/Lava Fireball.gif");
+                 background-size: 100% 100%;}
+.player { background-image: url("images/Shovel_Knight_Sprite.gif");
+                 background-size: 100% 100%;}
+
+.game {
+  overflow: hidden;
+  max-width: 40%;
+  max-height: 100%;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url("images/Death Effect.gif");
+                   background-size: 100% 100%;}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
